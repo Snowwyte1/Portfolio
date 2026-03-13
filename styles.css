@@ -1,0 +1,16 @@
+/* Global tweaks on top of Tailwind utilities */
+
+:root {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI",
+      sans-serif;
+  }
+  
+  /* Improve focus outlines for keyboard users */
+  :focus-visible {
+    outline: 2px solid rgb(56 189 248); /* sky-400 */
+    outline-offset: 3px;
+  }
